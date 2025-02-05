@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Services";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Thank you for being interested in personal Disc Golf training by Andrew Malone. While not a professional, Andrew offers services that are better than your furthest drive! </p>
+<p>Please use the calculator below to estimate the cost of hiring Andrew for your personal Disc Golf training</p>
+
+<!--Form for calculating hours-->
+<form>
+    <div style="margin-bottom: 10px;">
+        <label for="hours">Enter the number of hours you would like to train:</label>
+        <input type="number" id="hours" placeholder="Hours" style="margin-left: 10px;" />
+    </div>
+    <div style="margin-bottom: 10px;">
+        <label for="rate">Hourly Rate:</label>
+        <input type="number" id="rate" value="1499.99" readonly style="margin-left: 10px;" />
+    </div>
+    <div style="margin-bottom: 10px;">
+        <button type="button" id="btn-calculate">Calculate</button>
+    </div>
+    <div style="margin-bottom: 10px;">
+        <label for="totalCharge">Total Cost:</label>
+        <input type="number" id="totalCharge" placeholder="Total cost" readonly style="margin-left: 10px;" />
+    </div>
+</form>
+
+

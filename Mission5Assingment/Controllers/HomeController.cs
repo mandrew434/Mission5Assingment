@@ -13,11 +13,13 @@ namespace Mission5Assingment.Controllers
             _logger = logger;
         }
 
+        // This method returns the Index view
         public IActionResult Index()
         {
             return View();
         }
 
+        // This method returns the Services view
         public IActionResult Services()
         {
             return View();

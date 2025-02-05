@@ -3,6 +3,9 @@
 
 // Write your JavaScript code.
 
+
+//This is a function triggered by a clicked button
+//This function calculates the total charge based on the number of hours
 $("#btn-calculate").click(function () {
     $('#totalCharge').val(''); // Clear the value of totalCharge
 
